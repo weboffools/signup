@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-side {
+  position: relative;
+  display: flex;
+  flex-basis: 35%;
+  flex-direction: column;
+
+  justify-content: center;
+  background-image: url("bg-img.jpeg");
+  background-size: cover;
+}
+
+.credit {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+}
+
+.credit h3 {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+.credit a {
+  color: inherit;
+}
+
+.overlay {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  display: inline-flex;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  justify-content: center;
+  height: 5rem;
+  background-color: rgba(30, 30, 30, 0.1);
+}
+
+.overlay img {
+  height: 4.5rem;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.overlay h2 {
+  font-size: 4.5rem;
+  font-family: "GFS Neohellenic", sans-serif;
+}
+
+.right-side {
+  display: flex;
+  flex-basis: 65%;
+  flex-direction: column;
+}
+
+.top-section {
+  flex: 1;
+}
+
+.form-area {
+  flex: 1;
+}
+
+.bottom-section {
+  flex: 1;
+}
