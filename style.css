@@ -73,16 +73,43 @@ body {
 
 .right-side {
   display: flex;
-  flex-basis: 65%;
+  flex: 1;
   flex-direction: column;
+}
+.statement {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 80%;
 }
 
 .top-section {
   flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  background: hsl(0deg, 0%, 98%);
+  flex-direction: column;
+
 }
 
-.form-area {
+.middle-section {
   flex: 1;
+}
+
+form {
+  border: 1px solid hsl(0deg, 20%, 90%);
+  padding: 5%;
+}
+
+label {
+  font-size: 0.9rem;
+}
+
+fieldset {
+  border: none;
 }
 
 .bottom-section {
