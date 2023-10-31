@@ -51,22 +51,38 @@
             />
           <legend>Let's Do This!</legend>
           <fieldset>
-            <label for="first_name">FIRST NAME</label>
-            <input type="text" name="first_name" id="first_name">
-            <label for="last_name">LAST NAME</label>
-            <input type="text" name="last_name" id="last_name">
+            <div class="form-element">
+              <label for="first_name">FIRST NAME</label>
+              <input type="text" name="first_name" id="first_name">
+            </div>
+
+            <div class="form-element">
+              <label for="last_name">LAST NAME</label>
+              <input type="text" name="last_name" id="last_name">
+            </div>          
           </fieldset>
           <fieldset>
-            <label for="email">EMAIL</label>
-            <input type="email" name="email" id="email">
-            <label for="phone">PHONE NUMBER</label>
-            <input type="tel" name="phone" id="phone">
+            <div class="form-element">
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email">
+            </div> 
+            <div class="form-element">
+              <label for="phone">PHONE NUMBER</label>
+              <input type="tel" name="phone" id="phone">
+            </div>
+
           </fieldset>
           <fieldset>
-            <label for="password">PASSWORD</label>
-            <input type="password" name="password" id="password">
-            <label for="confirm_pass">CONFIRM PASSWORD</label>
-            <input type="password" name="confirm_pass" id="confirm_pass">
+            <div class="form-element">
+              <label for="password">PASSWORD</label>
+              <input type="password" name="password" id="password" minlength="8" maxlength="16" />
+            </div>
+
+            <div class="form-element">
+              <label for="confirm_pass">CONFIRM PASSWORD</label>
+              <input type="password" name="confirm_pass" id="confirm_pass" minlength="8" maxlength="16" />
+            </div>
+
           </fieldset>
           </form>
         </section>
