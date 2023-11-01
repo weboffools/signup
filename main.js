@@ -7,7 +7,7 @@ const passArea = document.querySelector('#password_area');
 const messageArea = document.createElement('span');
 const message = "* Passwords do not match";
 messageArea.textContent = message;
-messageArea.setAttribute('style', 'color: red');
+messageArea.setAttribute('style', 'color: red; font-size: 0.8rem;');
 
 const blankMess = document.createElement('span');
 
