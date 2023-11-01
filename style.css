@@ -143,7 +143,7 @@ label {
 input {
   appearance: none;
   display: inline-block;
-  width: 15vw;
+  width: max(15vw, 120px);
   padding: 3px;
   border: 1px solid #ccc;
   border-radius: 5px;
