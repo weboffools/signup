@@ -102,7 +102,11 @@ body {
 }
 
 .bottom-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   flex: 1;
+  padding: 2rem 3rem;
 
 }
 
@@ -143,8 +147,31 @@ input {
   padding: 3px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  
 }
 
 input:invalid {
   border: 2px solid red;
+}
+
+button {
+  width: 15vw;
+  color: white;
+  padding: 12px 0;
+  background-color: green;
+  font-size: 1.1rem;
+  border: 1px outset white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+.login {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.login-link {
+  color: green;
+  text-decoration: none;
+  font-weight: 500;
 }

@@ -48,6 +48,7 @@
           <form
             action="https://httpbin.org/post"
             method="post"
+            id="the-form"
             />
           <legend>Let's Do This!</legend>
           <fieldset>
@@ -87,7 +88,10 @@
           </form>
         </section>
 
-        <section class="bottom-section"></section>
+        <section class="bottom-section">
+          <button type="submit" form="the-form">Create Account</button>
+          <h3 class="login">Already have an account? <a href="login.html" class="login-link">Log in</a></h3>
+        </section>
       </div>
     </div>
   </body>
