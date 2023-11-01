@@ -14,12 +14,16 @@ const blankMess = document.createElement('span');
 passwordInput.addEventListener('input', () => {
   if (passwordInput.value != confirmPassword.value) {
     passArea.appendChild(messageArea); 
+  } else {
+    passArea.replaceChild(blankMess, messageArea);
   }
 });
 
 confirmPassword.addEventListener('input', () => {
   if (confirmPassword.value === passwordInput.value) {
     passArea.replaceChild(blankMess, messageArea);
+  } else {
+    passArea.appendChild(messageArea);
   }
 });
 
