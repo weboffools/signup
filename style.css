@@ -158,11 +158,16 @@ button {
   width: 15vw;
   color: white;
   padding: 12px 0;
-  background-color: green;
+  background-color: rgb(55,126,34);
   font-size: 1.1rem;
   border: 1px outset white;
   border-radius: 10px;
   box-shadow: 2px 2px 2px lightgrey;
+}
+
+button:hover {
+  color: black;
+  background-color: yellowgreen;
 }
 
 .login {
@@ -174,4 +179,9 @@ button {
   color: green;
   text-decoration: none;
   font-weight: 500;
+  text-shadow: 1px 1px 1px grey;
+}
+
+.login-link:hover {
+  background: pink;
 }
