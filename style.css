@@ -150,6 +150,10 @@ input {
   
 }
 
+.required-fields {
+  font-size: 0.75rem;
+}
+
 input:invalid {
   border: 2px solid red;
 }
